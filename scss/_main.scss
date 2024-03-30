@@ -1,0 +1,25 @@
+.alram-bar{
+    background:url(#{$imgUrl}/Frame\ 95619.svg) no-repeat right 12px center $blackle;
+    font-size: $fs13;
+    font-weight: bold;
+    height: $radius38;
+    border-radius: $radius38;
+    padding: 8px;
+    margin: 9px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.alram-bar span{
+    color: $blackle;
+    background-color: rgba($green09, .5);
+    height: $radius22;
+    border-radius: $radius22;
+    font-size: $fs13;
+    padding: 0 9px;
+    line-height: 22px;
+    font-weight: bold;
+}
+

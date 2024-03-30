@@ -1,0 +1,34 @@
+// //@mixin 믹스인이름(매개변수){
+//     css
+// }
+
+
+
+    // background: url()no-repeat 좌표 색상;
+    // background: url()no-repeat 좌표 배경이미지크기 색상;
+
+    // background: url()no-repeat 좌표 색상;
+    // background-size: 배경이미지크기;
+
+
+@mixin background($images){
+    background: url(#{$imgUrl}#{$image}) no-repeat $coordinate $color;
+    background-size: $size;
+}
+// @include background('ico.svg", right 20px bottom 20px, $green09, 20px auto)
+
+
+@mixin box($borderColor, $radius, $pandding, $shadow:null){
+ border: 1px solid $borderColor;
+ border-radius: $radius;
+ padding: $pandding;
+ box-shadow: $shadow;
+}
+@mixin box2($map, $firstkry){
+ border: 1px solid $borderColor;
+ border-radius: $radius;
+ padding: $pandding;
+ box-shadow: $shadow;
+}
+
+

@@ -1,0 +1,17 @@
+$textType : type1 $blackle 29px 20px, type2 #377cd1 23px 15px;
+//크기, 색상, 줄간격, 자간
+
+
+// .text-type1 {
+//     크기, 색상, 줄간격, 자간
+// }
+
+@each $class, $color, $lineHight, $fontSize in $textType{
+    .text-#{$class} {
+        color: $color;
+        line-height: $lineHight;
+        font-size: $fontSize;
+    }
+        
+    
+}

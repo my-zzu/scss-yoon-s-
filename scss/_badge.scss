@@ -1,0 +1,16 @@
+
+
+
+
+.alram-bar span.#{$yellow} {
+    background-color: $yellow;
+}
+
+
+
+
+@each  $class, $color in $badgeBg{
+    .alram-bar span.#{$class}{
+    background-color: $color;
+    }
+}
